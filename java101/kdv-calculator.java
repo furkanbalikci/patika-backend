@@ -6,7 +6,7 @@ public class Main {
         double amount,kdvRate,kdvAmount,total;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Tutar giriniz");
-        amount = scanner.nextInt();
+        amount = scanner.nextDouble();
         if ( amount > 1000.0) {
             kdvRate = 0.08;
         }else {
